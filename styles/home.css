@@ -1,0 +1,61 @@
+@import url(/styles/global.css);
+
+
+
+main section {
+    display: flex;
+    flex-direction: column;
+}
+/*
+main section:first-child {
+    filter: drop-shadow(3px 3px 10px #36545c);
+} */
+
+main section div img  {
+    width: 100%;
+    height: 94%;
+}
+
+
+/* containeren bildet og outlet er i 
+main section div{
+    flex: 1;
+    margin: 10px;
+}
+*/
+
+/* here is the container for slide 
+.outlet  {
+    flex: .5;}
+
+
+-------------------------------------*/
+h2 {
+    margin: 20px auto;
+}
+
+.pop-products {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.pop-products div {
+    text-align: center;
+}
+
+.items {
+    width: 30%;
+}
+
+@media (max-width: 400px) {
+    .pop-products {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pop-products div {
+        margin-top: 20px;
+    }
+}
+

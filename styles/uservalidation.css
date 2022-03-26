@@ -1,0 +1,75 @@
+h1 {
+    font-size: small;
+    margin: 10px auto;
+}
+
+h2 {
+    font-size: small;
+    text-transform: uppercase;
+}
+
+.information {
+    margin: 10px 10% 5px 10%;
+    text-align: center;
+    border-radius: 2px;
+}
+
+form div {
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+label {
+    font-size: larger;
+    text-transform: capitalize;
+    flex: 1;
+}
+input {
+    padding: 5px;
+    flex: 1;
+}
+
+
+#form p {
+    color: red;
+    font-size: 0.9em;
+    margin-top: 0px;
+    width: 100%;
+    margin-left: 20%;
+    display: none;
+
+}
+
+.payment {
+    display: flex;
+    flex-direction:column;
+    max-width: 400px;
+    margin: 20px auto;
+    border-bottom: 2px solid black;
+
+}
+
+.payment div {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.last-section {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.delivery {
+    display: flex;
+    flex-direction: column;
+}
+
+.last-section div {
+    width: 90%;
+}

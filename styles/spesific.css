@@ -1,0 +1,38 @@
+main {
+    position: relative;
+}
+
+
+main div {
+    margin: auto;
+    max-width: 300px;
+    margin-bottom: 50px;
+}
+
+main div img {
+    width: 80%;
+}
+
+main div * {
+    margin: 20px;
+}
+
+
+
+#add-to-cart:hover {
+    font-size: 1em;
+}
+
+#add-to-cart {
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 2px;
+    transition: .2s;
+    margin: 20px auto;
+    margin-top: 0px;
+    background-color: rgba(226, 199, 126, 0.5);
+}
+
+.changeInColor {
+    background-color: red;
+}

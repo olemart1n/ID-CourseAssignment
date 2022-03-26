@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Index page Rainydays">
+    <link rel="stylesheet" href="/styles/global.css">
+    <link rel="stylesheet" href="/styles/contact.css">
+    <script src="https://kit.fontawesome.com/6f7d13898d.js" crossorigin="anonymous"></script>    <title>RainyDays | home</title>
+</head>
+<body>
+    <header>
+        <a href="/index.html"><img src="pics/home-button.png" alt="brandlogo"></a>
+        <div>
+            <span class="navline"></span>
+            <span class="navline"></span>
+            <span class="navline"></span>
+        </div>
+        <nav>
+            <a href="/woman.html">woman</a>
+            <a href="/men.html">men</a>
+            <a href="/favourites.html">favourites</a>
+            <a href="/cart.html">cart<span id="span"></span></a>
+            <a href="/contact.html" class="activePage">contact</a>
+        </nav>
+    </header>
+    <main>
+        <div class="info">
+            <h1>contact info</h1>
+            <p>+47 xxxxxxxx</p>
+            <p>or <a href="mailto:contact@rainyDays.com">send mail</a></p>
+        </div>
+
+        <form action="" method="post/get" id="form">
+            <div class="fullname">
+                <label for="fullname">Your full name</label>
+                <input type="text" name="fullname" id="fullname">
+                <p id="fullNameError">Your full name is required</p>
+            </div>
+            <div class="email">
+                <label for="email">email</label>
+                <input type="text" name="email" id="email">
+                <p id="emailError">a working email adress is required</p>
+            </div>
+            <div class="number">
+                <label for="number">number</label>
+                <input type="text" name="number" id="number" placeholder="optional">
+            </div>
+            <div class="subject">
+                <textarea name="Text1" rows="5" type="text" name="subject" id="subject" placeholder="subject"></textarea>
+            </div>
+
+            <input type="submit" value="submit" id="button">
+        </form>
+    </main>
+    <footer>
+        <div>
+            <h5>contact us</h5>
+            <p>+47 xxxxxxxx</p>
+            <p>contact@rainyDays.com</p>
+        </div>
+        <div>
+            <h5>The jackets emphasize durability and 
+                being suitable for a range of different
+                weather types ensuring customers
+                are comfortable whatever adventure 
+                they go on.</p>
+        </div>
+        <div>
+            <a href="https://instagram.com">
+                <img src="/pics/logo-instagram.png" class="icon"></a>
+                <a href="https://twitter.com">
+                <img src="/pics/logo-twitter.png" class="icon"></a>
+                <a href="/contact.html">
+                <img src="/pics/logo-contact.png" class="icon"></a>
+                <a href="/contact.html">
+                <img src="/pics/shipping.png" class="icon"></a>
+        </div>
+    </footer>
+    <script src="/JS/navToggle.js"></script>
+    <script src="/JS/fixedPosition.js"></script>
+    <script src="/JS/contact.js"></script>
+    <script src="/JS/cartcounter.js"></script>
+</body>
+</html>

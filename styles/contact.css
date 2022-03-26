@@ -1,0 +1,36 @@
+.info {
+    margin: 20px auto;
+}
+
+form {
+    margin: 20px auto;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+}
+
+.subject {
+    margin-top: 15px;
+}
+
+
+#form p {
+    color: red;
+    font-size: 0.9em;
+    margin-top: 0px;
+    width: 100%;
+    margin-left: 20%;
+    display: none;
+
+}
+
+#button {
+    margin-top: 10px;
+}
+
+#button:hover {
+    transform: translate(2px);
+    filter: drop-shadow(1px 2px 2px #36545c);
+}
