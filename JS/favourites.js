@@ -22,8 +22,8 @@ apiCall()
 
 function DisplayProducts(jackets) {
     if(jackets.rating.rate > 4 && jackets.category !== "electronics" && jackets.category !== "jewelery") {
-        section.innerHTML += `<div>
-        <img class="items" src="${jackets.image}">
+        section.innerHTML += `<div><a href="/spesific.html?id=${jackets.id}">
+        <img class="items" src="${jackets.image}"><a/>
         <section>
         <h5>${jackets.title}</h5>
         <h5>${jackets.price} $</h5>

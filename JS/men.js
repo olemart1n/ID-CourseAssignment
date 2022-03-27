@@ -25,7 +25,7 @@ apiCall()
 function DisplayProducts(jackets) {
     if(jackets.category === "men's clothing") {
         section.innerHTML += `<div>
-        <img class="items" src="${jackets.image}">
+        <a href="/spesific.html?id=${jackets.id}"><img class="items" src="${jackets.image}"></a>
         <h4>${jackets.title}</h4>
         <h5>${jackets.price} $</h5>
         <a href="/spesific.html?id=${jackets.id}"><button>view</button></a>
