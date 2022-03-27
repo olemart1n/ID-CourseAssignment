@@ -33,6 +33,6 @@ main div * {
     background-color: rgba(226, 199, 126, 0.5);
 }
 
-.changeInColor {
-    background-color: red;
+label {
+    text-transform: uppercase;
 }
