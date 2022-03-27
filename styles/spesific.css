@@ -32,7 +32,3 @@ main div * {
     margin-top: 0px;
     background-color: rgba(226, 199, 126, 0.5);
 }
-
-label {
-    text-transform: uppercase;
-}
