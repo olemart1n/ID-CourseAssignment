@@ -1,6 +1,6 @@
+//consumer_key=ck_db5addac55ba538f33d2a0d5cf518b802dfa7a87&consumer_secret=cs_fc99bf429c09d7e660e5bb7cf3ca8043a2703713
 
-
-const url = "https://fakestoreapi.com/products";
+const url = "https://yellowflowerpower.no/wordpressAPI/wp-json/wc/v3/products?consumer_key=ck_db5addac55ba538f33d2a0d5cf518b802dfa7a87&consumer_secret=cs_fc99bf429c09d7e660e5bb7cf3ca8043a2703713";
 const section = document.querySelector(".pop-products");
 // THE API CALL
 async function apiCall() {
@@ -21,14 +21,12 @@ apiCall()
 
 
 function DisplayProducts(jackets) {
-    if(jackets.rating.rate > 4 && jackets.category !== "electronics" && jackets.category !== "jewelery") {
         section.innerHTML += `<div><a href="/spesific.html?id=${jackets.id}">
-        <img class="items" src="${jackets.image}"><a/>
+        <img class="items" src="${jackets.images[0].src}"><a/>
         <section>
-        <h5>${jackets.title}</h5>
+        <h5>${jackets.name}</h5>
         <h5>${jackets.price} $</h5>
         <a href="/spesific.html?id=${jackets.id}"><button>view</button></a>
                                 </section>
                                 </div>`
-    }
 }

@@ -1,7 +1,7 @@
 const queryString = document.location.search;
 const id = new URLSearchParams(queryString).get("id");
 
-const newUrl = "https://fakestoreapi.com/products/" + id;
+const newUrl = "https://yellowflowerpower.no/wordpressAPI/wp-json/wc/v3/products/" + id + "?consumer_key=ck_db5addac55ba538f33d2a0d5cf518b802dfa7a87&consumer_secret=cs_fc99bf429c09d7e660e5bb7cf3ca8043a2703713";
 
 const spesificContainer = document.querySelector("main div");
 
@@ -28,10 +28,10 @@ spesific()
 
 function displayProduct (jacket) { 
     spesificContainer.innerHTML +=`<div>
-                    <p>${jacket.category}</p>
-                    <h3>${jacket.title}</h3>
+                    <p>${jacket.categories[0].name},${jacket.categories[1].name},${jacket.categories[3].name},${jacket.categories[2].name}</p>
+                    <h3>${jacket.name}</h3>
                     <p><b>${jacket.price} $</b></p>
-                    <img src="${jacket.image}">
+                    <img src="${jacket.images[0].src}">
                     <p>${jacket.description}</p>
 
 </div>`;
