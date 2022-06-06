@@ -15,11 +15,10 @@ Contains:
 
 ## Built With
 
-- javasctipt
+- javascript
 - html
 - css
 
-## Getting Started
 
 ## Visit
 [RAINYDAYS JACEKTS](https://gracious-pasteur-810a2a.netlify.app/)
